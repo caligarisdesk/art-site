@@ -1,6 +1,8 @@
 ---
-title: Vegetables
+title: vegetables
 date: "2020-02-16"
-description: Some description
+thumbnail: "https://mcnamaraaws-art-images.s3.amazonaws.com/images/veggies.jpg"
+description: A painting of vegetables on a cutting board.
 ---
-Eat your veggies
+
+![veggies](https://mcnamaraaws-art-images.s3.amazonaws.com/images/veggies.jpg)

@@ -1,6 +1,8 @@
 ---
-title: Rose
-date: "2020-02-16T23:59:00.000Z"
+title: rose
+date: "2020-02-16"
+thumbnail: https://mcnamaraaws-art-images.s3.amazonaws.com/images/rose.jpg
+description: A study of light and mason jars
 ---
 
-Rose
+![rose](https://mcnamaraaws-art-images.s3.amazonaws.com/images/rose.jpg)
