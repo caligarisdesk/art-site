@@ -56,18 +56,18 @@ export const pageQuery = graphql`
           fields {
             slug
           }
+          thumbnailImg {
+            childImageSharp {
+              fluid(maxWidth: 1360) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
             description
             tags
-            thumbnail {
-              childImageSharp {
-                fluid(maxWidth: 1360) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
         }
       }

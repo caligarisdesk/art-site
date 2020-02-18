@@ -65,11 +65,11 @@ const indexQuery = graphql`
             title
             description
             tags
-            thumbnail {
-              childImageSharp {
-                fluid(maxWidth: 1360) {
-                  ...GatsbyImageSharpFluid
-                }
+          }
+          thumbnailImg {
+            childImageSharp {
+              fluid(maxWidth: 1360) {
+                ...GatsbyImageSharpFluid
               }
             }
           }
