@@ -18,7 +18,9 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            John's art site.
+            <p> John's art site. </p>
+            <p> Contact me via gmail using john.mcnamara.art. </p>
+            <p> I created this site based on the following gatsby template: https://www.gatsbyjs.org/starters/jooplaan/gatsby-london-night-and-day/ </p>
           </h2>
         </div>
       </article>
